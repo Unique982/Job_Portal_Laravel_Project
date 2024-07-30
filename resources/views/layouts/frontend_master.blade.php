@@ -36,9 +36,47 @@
                 <a class="nav-link" href="#">Find My job</a>
               </li>
             </ul>
+            <ul class="navbar-nav ms-0 ms-sm-0 ml-auto ml-3 mb-2 mb-lg-0 ms-lg-4">
+         <a href="" class="btn btn-outline-primary mr-2">Login </a>
+         <a href="" class="btn btn-success">Job Post</a>
+            </ul>
           </div>
         </div>
       </nav>
+
+      <!-- Hero section -->
+      <section class="hero" id="hero">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100 h-50vh" src="{{ asset('assets/frontend/images/banner-2.jpg') }}" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 h-50vh" src="{{ asset('assets/frontend/images/banner5.jpg') }}" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="{{ asset('assets/frontend/images/banner6.jpg') }}" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+      </section>
+
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
