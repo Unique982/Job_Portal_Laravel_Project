@@ -9,19 +9,20 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
+    <link rel="stylesheet" href="{{ asset('assets\frontend\css\style.css') }}">
+</head>
   <body>
-        <div class="container my-5">
+        <div class="container my-5 ">
             <div class="row d-flex justify-content-center">
-                <div class="col-md-6 mx-auto">
-                    <div class="card shawdo-border-0 p-2">
+                <div class="col-md-6 mx-auto mt-5">
+                    <div class="card">
                         <div class="card-header">
                             Login
                         </div>
                         <div class="card-body">
                             <form action="">
                                 <div class="from-group">
-                                    <label for="">User Name</label>
+                                    <label for="">Email</label>
                                     <input type="text" name="username" placeholder="Enter your username" class="form-control">
                                 </div>
                                 <div class="from-group">
@@ -31,7 +32,7 @@
                                 <br>
                                 <input type="submit" name="login" value="Login" class="btn bg-primary w-100" style="font-size:20px;font-weight:400;font-family:'Times New Roman'; color:#fff;">
                                 <div class="form-group">
-                                    Don't have account ? <a href="{{('signup')}}">Register</a>
+                                    Don't have account ? <a href="{{('register')}}">Register</a>
                                   </div>
 
                             </form>
