@@ -1,20 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     scroll-behavior: smooth;
 }
-body{
+body {
     background-color: #eeeded;
 }
-#navbar{
+#navbar {
     background: #fff;
-
 }
-#logo{
+#logo {
     margin-left: 20px;
     font-size: 30px;
     font-weight: 700;
@@ -23,41 +22,40 @@ body{
     margin-bottom: 5px;
 }
 
-#logo span{
+#logo span {
     color: blue;
 }
-a{
+a {
     list-style: none;
     font-size: 20px;
 }
-#navbar{
+#navbar {
     position: fixed;
 }
 
-
 /* Hero section simple css style */
-.hero{
+.hero {
     position: relative;
-    background-image: url('/assets/frontend/images/banner5.jpg');
+    background-image: url("/assets/frontend/images/banner5.jpg");
     background-size: cover;
     background-position: center;
-    height: 89vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: #fff;
 }
-.hero-text{
+.hero-text {
     font-size: 32px;
     font-weight: bold;
 }
-.hero-text p{
-font-size:16px;
-margin-bottom: 18px;
+.hero-text p {
+    font-size: 16px;
+    margin-bottom: 18px;
 }
-.btn{
- margin: 5px;
+.btn {
+    margin: 5px;
 }
 /* Search section  */
 .search-section {
@@ -66,44 +64,101 @@ margin-bottom: 18px;
     border-radius: 10px;
     margin-top: 20px;
 }
-.popular-section{
+.popular-section {
     margin-top: 30px;
     padding: 50px;
     background-color: #eeeded;
 }
-.head-title{
-font-size: 25px;
-font-weight: bold;
-margin-bottom: 50px;
-text-align: center;
+.head-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
 }
-.head-title::after{
-content :"";
-display: block;
-width: 90px;
-height: 3px;
-background: #28a745;
-margin:3px auto;
+.head-title::after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 3px;
+    background: #28a745;
+    margin: 3px auto;
 }
-.card{
-background-color: white;
-border: 1px solid #bdbaba;
-padding: 20px;
-border-radius: 15px;
-text-align: center;
-transition: transform 0.2s ease-in-out;
-box-shadow: 0.2s;
+.card-pop {
+    background-color: white;
+    border: 1px solid #bdbaba;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0.2s;
 }
-.card:hover{
+.card-pop:hover {
     transform: translateY(-5px);
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
-.content-title{
-font-size: 18px;
-font-weight: bold;
-color: #28a745;
+.content-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
 }
-.count{
-font-size: 14px;
-color: #6c757d;
+.count {
+    font-size: 14px;
+    color: #6c757d;
+}
+.lastest-section {
+    padding: 50px;
+    background-color: #fff;
+}
+.job-card {
+    background-color: #fefefe;
+    border: 1px solid #e2e6ea;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 0 10px rgbs(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+.job-cotent-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.job-cotent-title h3 {
+    font-weight: bold;
+}
+.job-details {
+    margin-bottom: 15px;
+    padding: 10px;
+    margin: auto;
+    background-color: #f8f4f4;
+}
+.job-details p {
+    font-size: 15px;
+    margin: 5px;
+    font-weight: bold;
+}
+.job-details i {
+    font-size: 15px;
+    margin: 8px;
+}
+.job-list {
+    margin: 150px auto;
+    padding: auto;
+}
+.job-list-head {
+    font-size: 25px;
+    font-weight: bold;
+}
+.job-list-head::after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 3px;
+    background: #28a745;
+    margin: 10px;
+
+}
+.form-label {
+    font-size: 15px;
+    font-weight: bold;
 }

@@ -16,5 +16,13 @@ class AccountController extends Controller
         return view('frontend.account.login');
 
     }
+    public function job(){
+        return view('frontend.job_post');
+
+    }
+    public function details(){
+        return view('frontend.single_job_details');
+
+    }
 
 }
